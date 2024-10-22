@@ -1007,7 +1007,7 @@ order: -9999;
     justify-content: space-between;
 }
 
-.fivecolwithbsckground__logocontainer {
+.fivecolwithbackground__logocontainer {
     display: flex;
     align-items: center;
 }
