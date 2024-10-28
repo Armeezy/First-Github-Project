@@ -777,6 +777,10 @@ order: -9999;
     position: relative;
 }
 
+.twocolwithimgandrating__leftimg {
+    width: 100%;
+}
+
 .twocolwithimgandrating__textcol {
     padding: 0 0 0 64px;
 }
@@ -803,6 +807,23 @@ order: -9999;
     color: #7c8ba1;
 }
 
+.slick-slider {
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+    .twocolwithimgandrating__testimonial {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .staricon {
+        fill:  rgb(246, 173, 85);
+        height: 3.25rem;
+        width: 3.25rem;
+        display: inline-block;
+    }
+
 /* FAQS */
 
 .faqs {
@@ -816,7 +837,7 @@ order: -9999;
 
 .singlecol__col {
     display: flex;
-    flex-direction: column;
+    flex-direction: col85mn;
     align-items: center;
 }
 
