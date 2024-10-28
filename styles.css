@@ -837,7 +837,7 @@ order: -9999;
 
 .singlecol__col {
     display: flex;
-    flex-direction: col85mn;
+    flex-direction: column;
     align-items: center;
 }
 
