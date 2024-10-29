@@ -824,6 +824,76 @@ order: -9999;
         display: inline-block;
     }
 
+    .twocolwithimgandrating__testimonialheader {
+        margin-top: 1rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #243e63;
+    }
+
+    .twocolwithimgandrating__quote {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 500;
+        color: #4a5568;
+    }
+
+    .twocolwithimgandrating__customerinforandcontrolscontainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .twocolwithimandrating__customerinfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .twocolwithimgandrating__profilepic {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 9999px;
+    }
+
+ .twocolwithimgandrating__customertextinfo {
+    margin-top: 0.5rem;
+    text-align: center;
+ }
+
+ .twocolwithimgandrating__customername {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4a5568;
+    margin-left: 2rem;
+ }
+
+ .twocolwithimgandrating__customertitle {
+    font-weight: 500;
+    color: #7c8ba1;
+    font-size: 16px;
+    margin-left: 2rem;
+ }
+
+ .twocolwithimgandrating__controls {
+    display: flex;
+ }
+
+.twocolwithimgandrating__button {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    border-radius: 9999px;
+    background-color: rgb(237, 242, 247);
+    padding: 1rem;
+    color: rgb(100, 21, 255);
+}
+
+.twocolwithimgandrating__divider {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-right-width: 1px;
+}
+
 /* FAQS */
 
 .faqs {
