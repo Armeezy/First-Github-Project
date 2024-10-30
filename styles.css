@@ -131,6 +131,23 @@ input {
 }
 
 button {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background-color: #6145ff;
+    color: white;
+    border-radius: 9999px;
+    padding: 12px 32px;
+    margin: 8px 8px 8px 0;
+    cursor: pointer;
+    border: none;
+}
+
+.mainbutton {
     position: absolute;
     right: 0;
     top: 0;
@@ -882,10 +899,13 @@ order: -9999;
 .twocolwithimgandrating__controlbutton {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-    border-radius: 9999px;
-    background-color: rgb(237, 242, 247);
-    padding: 1rem;
+    display: flex;
+    background-color: lightgrey;
     color: rgb(100, 21, 255);
+    border-radius: 9999px;
+    padding: 16px;
+    margin: 0px 12px;
+    cursor: pointer;
 }
 
 .divider {
