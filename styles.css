@@ -101,6 +101,7 @@ p {
 
 .twocolwithinput__header {
     font-weight: 700;
+    font-size: 48px;
     line-height: 1.25;
     color: #243e63;
 }
@@ -189,6 +190,10 @@ img {
     display: flex;
     align-items: center;
  }
+
+    .rightcol_illuimg {
+        margin-left: 3.25rem;
+}
 
  /* FEATURES*/
 
@@ -1150,3 +1155,18 @@ order: -9999;
 
 
 /*MEDIA*/
+
+
+@media (max-width:860px) {
+    .light__navlinks, .twocolwithtwohorizontalfeaturesandbutton__img, .twocolwithimgandrating__leftimg {
+        display: none;
+    }
+
+    .threeplans__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+
+}
