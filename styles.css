@@ -204,9 +204,9 @@ img {
  .threecolwithimg__threecolcontainer {
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     justify-content: space-around;
     max-width: 1024px;
+    display: flex;
     flex-flow: wrap;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -1048,6 +1048,7 @@ order: -9999;
     border-color: transparent;
     font-weight: 700;
     padding: 20px 40px;
+    margin: 0px 32px 0px 0px;
 }
 
 .getstarted__secondlink {
@@ -1157,7 +1158,7 @@ order: -9999;
 /*MEDIA*/
 
 
-@media (max-width:860px) {
+@media (max-width:768px) {
     .light__navlinks, .twocolwithtwohorizontalfeaturesandbutton__img, .twocolwithimgandrating__leftimg {
         display: none;
     }
