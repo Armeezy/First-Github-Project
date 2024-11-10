@@ -1157,17 +1157,6 @@ order: -9999;
 
 /*MEDIA*/
 
-
-@media (max-width:768px) {
-    .light__navlinks, .twocolwithtwohorizontalfeaturesandbutton__img, .twocolwithimgandrating__leftimg {
-        display: none;
-    }
-
-    .threeplans__container {
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 1024px) {
     
-
-
 }
