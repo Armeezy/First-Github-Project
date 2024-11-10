@@ -1172,6 +1172,11 @@ order: -9999;
         font-size: 1.875rem;
     }
 
+    .twocolwithtwohorizontalfeaturesandbutton__features {
+        display: flex;
+        flex-direction: column;
+    }
+
     .threeplans__container {
         display: flex;
         flex-direction: column;
