@@ -1157,6 +1157,18 @@ order: -9999;
 
 /*MEDIA*/
 
-@media (max-width: 1024px) {
-    
+@media (max-width: 768px) {
+
+    .light__navlinks {
+        display: none;
+    }
+
+    .twocolwithinput__twocol {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        flex-direction: column;
+    }
+    .twocolwithinput__header {
+        font-size: 1.875rem;
+    }
 }
