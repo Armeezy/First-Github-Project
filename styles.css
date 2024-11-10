@@ -1171,4 +1171,19 @@ order: -9999;
     .twocolwithinput__header {
         font-size: 1.875rem;
     }
+
+    .threeplans__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .threeplans__para {
+        font-size: 1rem;
+    }
+
+    .threeplans__header {
+        font-size: 3rem;
+    }
 }
