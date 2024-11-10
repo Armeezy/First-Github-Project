@@ -1047,7 +1047,7 @@ order: -9999;
     border-width: 1px;
     border-color: transparent;
     font-weight: 700;
-    padding: 20px 40px;
+    padding: 16px 32px;
     margin: 0px 32px 0px 0px;
 }
 
@@ -1058,7 +1058,7 @@ order: -9999;
     border-color: rgb(160, 174, 192);
     color: rgb(247, 250, 252);
     font-weight: 700;
-    padding: 20px 40px;
+    padding: 16px 32px;
 }
 
 /* FOOTER*/
@@ -1157,10 +1157,21 @@ order: -9999;
 
 /*MEDIA*/
 
-@media (max-width: 768px) {
+@media (max-width:1024px) {
+    .btn_menu {
+        display: none;
+    }
+}
+
+
+@media (max-width: 728px) {
 
     .light__navlinks {
         display: none;
+    }
+
+    .btn_menu {
+        display: block;
     }
 
     .twocolwithinput__twocol {
@@ -1192,3 +1203,5 @@ order: -9999;
         font-size: 3rem;
     }
 }
+
+@
