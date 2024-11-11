@@ -1122,14 +1122,14 @@ order: -9999;
 
 .fivecolwithbackground__threecolrow {
     display: flex;
-    align-items: center;;
+    align-items: center;
     justify-content: space-between;
-    margin-left: 4rem;
 }
 
 .fivecolwithbackground__logocontainer {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .fivecolwithbackground__logoimg {
@@ -1368,7 +1368,6 @@ order: -9999;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-left: 5rem;
     }
 
     .fivecolwithbackground__copywright {
